@@ -306,7 +306,7 @@ def handle_bgmi(message):
             if time > 240:
                 response = "⚠️ 𝐢𝐧𝐯𝐚𝐥𝐢𝐝 𝐟𝐨𝐫𝐦𝐚𝐭 ⚠️𝐦𝐮𝐬𝐭 𝐛𝐞 𝐥𝐞𝐬𝐬 𝐭𝐡𝐚𝐧 𝟐𝟒𝟎."
             else:
-                record_command_logs(user_id, '/attack', target, port, time)
+                record_command_logs(user_id, '/bgmi2', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./RAHUL {target} {port} {time} 1000"
