@@ -23,7 +23,7 @@ REQUIRED_CHANNELS = {
     },
     "channel2": {
         "chat_id": "-1002486348129",
-        "invite_link": "https://t.me/bgmihackset"
+        "invite_link": "https://t.me/TABISHDDOS"
     }
 }
 
