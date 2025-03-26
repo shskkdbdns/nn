@@ -22,8 +22,8 @@ REQUIRED_CHANNELS = {
         "invite_link": "https://t.me/+SCgV7yRZK3Q3YTA1"  # अपना इनवाइट लिंक
     },
     "channel2": {
-        "chat_id": "-1001846844159",
-        "invite_link": "https://t.me/+OpuNLrMdms1jOTll"
+        "chat_id": "-1002486348129",
+        "invite_link": "https://t.me/bgmihackset"
     }
 }
 
