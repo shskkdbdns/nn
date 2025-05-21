@@ -5,10 +5,10 @@ import subprocess
 import datetime
 import os
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7834451064:AAGTlYSavD4KDnDj4o5DAAVlgF6JXdIoWvY')
+bot = telebot.TeleBot('7867896444:AAHhx0gj-XM8GYZngAcXTXz5hpyNneGryAk')
 
 # Admin user IDs
-admin_id = {"1257888659"}
+admin_id = {"7495474613"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -293,7 +293,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.Dm: @hack_chiye
+    response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.Dm: @libanort_so
 🤖Try To Run This Command : /help 
 '''
     bot.reply_to(message, response)
@@ -322,7 +322,7 @@ Pr-ice List💸 :
 Day-->100 Rs
 Week-->400 Rs
 Month-->1000 Rs
-Dm: @hack_chiye
+Dm: @libanort_so
 '''
     bot.reply_to(message, response)
 
