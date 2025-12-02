@@ -5,10 +5,10 @@ import subprocess
 import datetime
 import os
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7867896444:AAHhx0gj-XM8GYZngAcXTXz5hpyNneGryAk')
+bot = telebot.TeleBot('8560241908:AAFf53sKlfDT8K7LieepJiqa3c56k_f9YiM')
 
 # Admin user IDs
-admin_id = {"7495474613"}
+admin_id = {"1257888659"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -293,7 +293,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.Dm: @libanort_so
+    response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.Dm: @hack_chiye
 🤖Try To Run This Command : /help 
 '''
     bot.reply_to(message, response)
@@ -314,15 +314,15 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip 🌟 :
--> Attack Time : 180 (S)
+-> Attack Time : 200 (S)
 > After Attack Limit : 5 Min
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
-Day-->100 Rs
-Week-->400 Rs
-Month-->1000 Rs
-Dm: @libanort_so
+Day-->200 Rs
+Week-->900 Rs
+Month-->2500 Rs
+Dm: @hack_chiye
 '''
     bot.reply_to(message, response)
 
